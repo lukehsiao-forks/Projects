@@ -1,8 +1,7 @@
-# -*- coding: cp1252 -*-
-"""
-Reverse a String – Enter a string and the program
-will reverse it and print it out.
-"""
+#!/usr/bin/python
 
-string = raw_input("Whatchu wanna say to me? ")
-print "You say %s, I say %s" % (string, string[::-1])
+# Reverse a string
+
+# Read in a string
+str = raw_input()
+print str[::-1]
